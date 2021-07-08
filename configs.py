@@ -38,7 +38,7 @@ Hi, I am Video Watermark Adder Bot!
 
 **Note:** I can only process one video at a time. As my server is Heroku, my health is not good.
 
-(Codes Credit: AbirHasan2005)
+__(Codes Credit: AbirHasan2005)__
 """
 	PROGRESS = """
 Percentage : {0}%
