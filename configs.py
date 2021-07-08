@@ -21,7 +21,7 @@ class Config(object):
 	CAPTION = "By @E_karo"
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "VideoWatermark_Bot")
 	DATABASE_URL = os.environ.get("DATABASE_URL")
-	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
+	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
 	ALLOW_UPLOAD_TO_STREAMTAPE = bool(os.environ.get("ALLOW_UPLOAD_TO_STREAMTAPE", True))
 	USAGE_WATERMARK_ADDER = """
 Hi, I am Video Watermark Adder Bot!
