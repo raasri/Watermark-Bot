@@ -17,8 +17,8 @@ class Config(object):
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
 	DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
 	PRESET = os.environ.get("PRESET", "ultrafast")
-	OWNER_ID = int(os.environ.get("OWNER_ID", 1445283714))
-	CAPTION = "By @AHToolsBot"
+	OWNER_ID = int(os.environ.get("OWNER_ID"))
+	CAPTION = "By @E_karo"
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "VideoWatermark_Bot")
 	DATABASE_URL = os.environ.get("DATABASE_URL")
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
@@ -27,9 +27,18 @@ class Config(object):
 Hi, I am Video Watermark Adder Bot!
 
 **How to Added Watermark to a Video?**
-**Usage:** First Send a JPG Image/Logo, then send any Video. Better add watermark to a MP4 or MKV Video.
 
-__Note: I can only process one video at a time. As my server is Heroku, my health is not good.
+**Steps:**
+
+**1.** First Send Me a JPG/PNG Image/Logo, 
+
+**2.** Then Use /Settings To Set Watermark Position And Size,
+
+**3.** Then send any Video. Better add watermark to a MP4 or MKV Video.
+
+**Note:** I can only process one video at a time. As my server is Heroku, my health is not good.
+
+(Codes Credit: AbirHasan2005)
 """
 	PROGRESS = """
 Percentage : {0}%
